@@ -1,0 +1,39 @@
+function txt() {
+	        setTimeout(function() {
+            document.getElementById("changeable").innerHTML = "Im a designer_"
+            setTimeout(function(){
+                document.getElementById("changeable").innerHTML = "Im a designer"
+                setTimeout(function(){
+                    document.getElementById("changeable").innerHTML = "Im a designer_"
+                    setTimeout(function() {
+                        document.getElementById("changeable").innerHTML = "Im a desig_"
+                        setTimeout(function() {
+                            document.getElementById("changeable").innerHTML = "Im a de_"
+                            setTimeout(function() {
+                                document.getElementById("changeable").innerHTML = "Im a d_"
+                                setTimeout(function() {
+                                    document.getElementById("changeable").innerHTML = "Im a dev_"
+                                    setTimeout(function() {
+                                        document.getElementById("changeable").innerHTML = "Im a devloper_"
+                                        setTimeout(function() {
+                                            document.getElementById("changeable").innerHTML = "Im a devl_"
+                                            setTimeout(function() {
+                                                document.getElementById("changeable").innerHTML = "Im a dr_"
+                                                setTimeout(function() {
+                                                    document.getElementById("changeable").innerHTML = "Im a dreamer_"
+                                                    setTimeout(function() {
+                                                    	 document.getElementById("changeable").innerHTML = "Im a programmer<span style=color:#FB4252;>_</span>"
+                                                    } ,300)
+                                                } ,100)
+                                            } ,100)
+                                        } ,500)
+                                    } ,30)
+                                } ,100)
+                            } ,350)
+                        } ,330)
+                    } ,300)
+                } ,215)
+            } ,205)
+        } ,2000);
+}
+txt();
